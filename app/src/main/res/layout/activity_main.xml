@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.rakesh.firebaseproject.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/etemail"
+            android:hint="enter mail id"
+            android:textSize="20dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/etpassword"
+            android:hint="enter password"
+            android:layout_margin="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/bregister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="register user"
+        android:textSize="23dp"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:id="@+id/tvalreadyregister"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="already register ? sign_in here"/>
+    </LinearLayout>
+
+</RelativeLayout>
